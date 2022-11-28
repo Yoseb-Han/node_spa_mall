@@ -136,7 +136,7 @@ router.post("/goods/", async (req, res) => {
   if (goods.length) {
     return res.status(400).json({
       success: false,
-      errorMessage: "이미 존재하는 GoodsId입니다.",
+      errorMessage: "이미 존재하는 GoodsId입니다!",
     });
   }
 
